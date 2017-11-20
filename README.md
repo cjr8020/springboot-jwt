@@ -1,8 +1,21 @@
 # springboot-jwt
+
+fork of (sort of): https://github.com/nydiarra/springboot-jwt
+and [article](https://medium.com/@nydiarra/secure-a-spring-boot-rest-api-with-json-web-token-reference-to-angular-integration-e57a25806c50)
+
 ## An Example Spring Boot Application for Securing a REST API with JSON Web Token (JWT)
 
 This application can be used as a seed to quick start your spring boot REST API project with a fully functional security module.
 
+## Resources
+
+* [Spring Boot OAuth2 Tutorial](https://spring.io/guides/tutorials/spring-boot-oauth2/)
+* [Spring OAuth2 Dev Guide](http://projects.spring.io/spring-security-oauth/docs/oauth2.html)
+* [Baeldung Tutorial - Resource and Authn Servers](http://www.baeldung.com/rest-api-spring-oauth2-angularjs)
+* a bit dated by seems complete [hasCode.com Tutorial](http://www.hascode.com/2016/03/setting-up-an-oauth2-authorization-server-and-resource-provider-with-spring-boot/)
+* Authn and Resource Server Tutorial:
+    * [Resource Server Tutorial](https://github.com/warumono-for-develop/spring-boot-oauth2-resource-server-tutorial)
+    * [Authn Server Tutorial](https://github.com/warumono-for-develop/spring-boot-oauth2-authorization-server-tutorial)
 ## Main building blocks
  * Spring Boot 1.5.3.RELEASE go to http://docs.spring.io/spring-boot/docs/1.5.3.RELEASE/reference/htmlsingle/ to learn more about spring boot
  * JSON Web Token go to https://jwt.io/ to decode your generated token and learn more
